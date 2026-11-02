@@ -29,4 +29,4 @@ jobs:
 
       - name: Debug log
         if: ${{ failure() }}
-        run: cat ~/.backport/backport.debug.log
+        run: cat ~/.backport/backport.debug.lo
